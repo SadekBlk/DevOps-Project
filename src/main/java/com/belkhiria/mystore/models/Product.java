@@ -13,6 +13,7 @@ import lombok.*;
 @Entity
 @Table(name = "products")
 public class Product {
+	// test
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
